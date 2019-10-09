@@ -41,7 +41,7 @@
 (defn page-for [route]
   (case route
     :index #'home-page
-    :items #'currencies-page))
+    :currencies #'currencies-page))
 
 
 ;; -------------------------
